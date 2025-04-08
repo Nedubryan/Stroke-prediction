@@ -5,7 +5,7 @@ from PIL import Image # Importing the Image module from PIL
 
 
 # Load the logo image
-logo = Image.open("health-care-stroke.jpg")
+logo = Image.open("https://www.statnews.com/wp-content/uploads/2022/03/AdobeStock_246942922-768x432.jpeg")
 st.image(logo,  caption="Stroke Prediction App", use_container_width=True)
 
 # Load the trained model

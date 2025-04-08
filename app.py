@@ -1,11 +1,10 @@
-import streamlit as st
 import joblib
 import numpy as np
 from PIL import Image # Importing the Image module from PIL
-
+import streamlit as st
 
 # Load the logo image
-logo = Image.open("C:\\Users\\chinedu\\Desktop\\App_Model\\health-care-stroke.jpg")
+logo = Image.open("health-care-stroke.jpg")
 st.image(logo,  caption="Stroke Prediction App", use_container_width=True)
 
 # Load the trained model
